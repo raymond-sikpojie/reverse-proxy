@@ -16,7 +16,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-        - image: omogbare/simple-express
+        - image: omogbare/reverse-proxy
           name: reverseproxy
           imagePullPolicy: Always
           resources:
